@@ -13,7 +13,7 @@ unsafe = true
 
 [params]
 	mode="toggle"
-	useCDN=false
+	useCDN=true
 
 [[params.social]]
 name = "GitHub"
