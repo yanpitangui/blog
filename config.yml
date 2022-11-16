@@ -35,6 +35,9 @@ languages:
                 - name: Tags
                   url: tags/
                   weight: 10
+                - name: About
+                  url: about/
+                  weight: 10
 
 outputs:
     home:
@@ -49,29 +52,16 @@ params:
 
     defaultTheme: dark
     # disableThemeToggle: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowReadingTime: true
     # disableSpecial1stPost: true
     displayFullLangName: true
-    ShowPostNavLinks: true
+    ShowPostNavLinks: false
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
     ShowToc: true
     comments: true
-
-    homeInfoParams:
-        Title: "About me"
-        Content: >
-            Hi, I'm Yan Pitangui, a software developer based in Brazil.
-            <br/>
-            I started as a fullstack developer but over time I've become focused on backend (with c#/.net) and Azure.
-            <br/>
-
-            Lately, I've been studying cloud native computing (with Orleans) and Observability (with OpenTelemetry).
-
-            <br/>
-            Here you will find stuff that I share in hope that it becomes useful for someone.
 
     socialIcons:
         - name: github
