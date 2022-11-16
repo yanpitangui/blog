@@ -1,0 +1,4 @@
+baseURL = 'https://yanpitangui.github.io/blog'
+languageCode = 'en-us'
+title = 'Yan Pitangui'
+theme='ananke'
