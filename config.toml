@@ -1,0 +1,53 @@
+baseURL = "https://yanpitangui.com"
+languageCode = "en-us"
+title = "Yan Pitangui"
+theme="archie"
+copyright = "© Yan Pitangui"
+paginate = 5
+pygmentsstyle = "dracula"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+	mode="toggle"
+	useCDN=false
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/yanpitangui"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/aethelingaeg"
+
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/yanpitangui/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+

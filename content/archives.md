@@ -1,6 +1,5 @@
 ---
-title: "Archive"
+date: 2019-05-28
+type: section
 layout: "archives"
-# url: "/archives"
-summary: "archives"
 ---
