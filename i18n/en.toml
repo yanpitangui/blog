@@ -1,0 +1,5 @@
+postedOn = 'Posted on'
+
+[readingTime]
+  one = 'One minute to read'
+  other = '{{ .Count }} minutes to read'

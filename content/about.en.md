@@ -1,20 +1,20 @@
 +++
-title = "About"
-description = "Hugo, the world’s fastest framework for building websites"
+title = "About me"
 date = "2022-11-16"
-aliases = ["about-us","about-hugo","contact"]
-author = "Hugo Authors"
+aliases = ["about","contact"]
+author = "Yan Pitangui"
+translationKey = "about"
 +++
 
-Hi, I'm Yan Pitangui, a software developer based in Brazil.
+Hello, I'm Yan Pitangui, a software developer based in Brazil.
 <br/>
-I started as a fullstack developer but over time I've become focused on backend and Azure.
+I started as a fullstack developer, but over time I focused on backend and Azure.
 <br/>
-I really like working with C#/.NET and I've also began learning Rust.
+I really like working with C#/.NET, JS/TS and I also started to learn Rust.
 <br/>
-Lately, I've been studying cloud native computing (with Orleans) and Observability (with OpenTelemetry).
+Lately I've been studying cloud native computing (with Orleans) and observability (with OpenTelemetry).
 <br/>
-Here you will find stuff that I share in hope that it becomes useful for someone.
+Here you will find material that I share in the hope that it will be useful to someone.
 
 
 <hr/>

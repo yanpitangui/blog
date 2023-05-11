@@ -1,12 +1,51 @@
 baseURL = "https://yanpitangui.com/"
-languageCode = "en-us"
-title = "Yan Pitangui"
 theme="archie"
 copyright = "© Yan Pitangui"
 paginate = 5
 pygmentsstyle = "dracula"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "pt"
+[languages]
+  [languages.pt]
+    title = "Yan Pitangui"
+    languageName = "pt"
+    weight = 1
+  [[languages.pt.menu.main]]
+    identifier = 'posts'
+    name = "Todos os posts"
+    pageRef = "/posts"
+    weight = 2
+  [[languages.pt.menu.main]]
+    name = "Tags"
+    pageRef = "/tags"
+    weight = 3
+  [[languages.pt.menu.main]]
+    identifier = 'about'
+    name = "Sobre mim"
+    pageRef = "/about"
+    weight = 4
+  [languages.en]
+    title = "Yan Pitangui"
+    languageName = "en"
+    weight = 1
+  [[languages.en.menu.main]]
+    identifier = 'posts'
+    name = "All posts"
+    pageRef = "/posts"
+    weight = 2
+  [[languages.en.menu.main]]
+    name = "Tags"
+    pageRef = "/tags"
+    weight = 3
+  [[languages.en.menu.main]]
+    identifier = 'about'
+    name = "About me"
+    pageRef = "/about"
+    weight = 4  
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -30,24 +69,11 @@ name = "Linkedin"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/yanpitangui/"
 
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
 
 [[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
 
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 4
+
+
 
 
