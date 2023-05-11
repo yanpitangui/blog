@@ -2,13 +2,11 @@
 <nav aria-label="Language switcher">
     {{ range .Site.Languages }}
     {{ if eq . $.Site.Language }}
-    <span aria-label="{{ i18n "ariaLanguage" }}{{ .LanguageName }}">{{ .LanguageName }}</span>
+    <span aria-label="{{ i18n "ariaLanguage" }}{{ .LanguageName }}" style="border-bottom: 3px solid var(--callouctcolor);">{{ .LanguageName }}</span>
       {{ end }}
       {{ end }}
-      <span aria-labelledby="dropdown-title">
-        {{ range $.Translations }}
-        <a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a>
-      </span>
+      {{ range $.Translations }}
+        <a title="{{ .Language.LanguageName }}" style="border: none;" href="{{ .Permalink }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a>
       {{ end }}
 </nav>
 {{ end }}

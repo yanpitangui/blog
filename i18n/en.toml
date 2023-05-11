@@ -1,4 +1,7 @@
 postedOn = 'Posted on'
+allTags = 'All tags'
+allArticles = 'All articles'
+
 
 [readingTime]
   one = 'One minute to read'

@@ -1,9 +1,10 @@
 +++
 title = "Sobre mim"
 date = "2022-11-16"
-aliases = ["about","contact"]
+aliases = ["about"]
 author = "Yan Pitangui"
 translationKey = "about"
+type = 'page'
 +++
 
 Olá, sou Yan Pitangui, um desenvolvedor de software baseado no Brasil.
