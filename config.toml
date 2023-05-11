@@ -1,5 +1,5 @@
 baseURL = "https://yanpitangui.com/"
-theme="archie"
+theme="archie-fork"
 copyright = "© Yan Pitangui"
 paginate = 5
 pygmentsstyle = "dracula"

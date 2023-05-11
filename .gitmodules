@@ -1,3 +1,3 @@
-[submodule "themes/archie"]
-	path = themes/archie
-	url = https://github.com/athul/archie.git
+[submodule "themes/themes/archie-fork"]
+	path = themes/themes/archie-fork
+	url = https://github.com/yanpitangui/archie-theme-hugo.git
