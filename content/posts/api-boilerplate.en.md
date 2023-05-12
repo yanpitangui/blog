@@ -37,6 +37,5 @@ It was being improved as I gained experience in the market and studied issues su
 As this is the one I know the most, it will be the one that will be used in the following example.
 
 ## How to use the boilerplate
-
-### Recommended way
 <iframe src="https://scribehow.com/embed/Creating_a_repository_from_a_template__wtmg_1aXTOGPcsDWvtplRg?skipIntro=true" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+After that, just clone the project and follow the [README.MD](https://github.com/yanpitangui/dotnet-api-boilerplate/blob/main/README.md) instructions, which involve removing the "hero" classes/resources and creating the classes/resources that meet your project's business needs.

@@ -38,8 +38,6 @@ Foi sendo melhorado de acordo com que adquiri experiência no mercado e estudei 
 Como este é o que mais conheço, será o que terá o exemplo de utilização a seguir.
 
 ## Como utilizar o boilerplate
-
-### Maneira recomendada
 <iframe src="https://scribehow.com/embed/Criando_um_repositorio_a_partir_de_um_template__XfCpSqLmTumICXDzDB86pQ?skipIntro=true" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
 
-
+Após isso, basta clonar o projeto e seguir as instruções do [README.MD](https://github.com/yanpitangui/dotnet-api-boilerplate/blob/main/translations/pt-br/README.md), que envolvem remover as classes/recursos de "hero" e criar as classes/recursos para atender as necessidades do negócio do seu projeto.
