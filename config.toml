@@ -15,7 +15,6 @@ DefaultContentLanguage = "pt"
     languageName = "pt"
     weight = 1
   [[languages.pt.menu.main]]
-    identifier = 'posts'
     name = "Todos os posts"
     pageRef = "/posts"
     weight = 2
@@ -24,7 +23,6 @@ DefaultContentLanguage = "pt"
     pageRef = "/tags"
     weight = 3
   [[languages.pt.menu.main]]
-    identifier = 'about'
     name = "Sobre mim"
     pageRef = "/about"
     weight = 4
@@ -33,7 +31,6 @@ DefaultContentLanguage = "pt"
     languageName = "en"
     weight = 1
   [[languages.en.menu.main]]
-    identifier = 'posts'
     name = "All posts"
     pageRef = "/posts"
     weight = 2
@@ -42,7 +39,6 @@ DefaultContentLanguage = "pt"
     pageRef = "/tags"
     weight = 3
   [[languages.en.menu.main]]
-    identifier = 'about'
     name = "About me"
     pageRef = "/about"
     weight = 4  
