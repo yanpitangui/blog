@@ -66,6 +66,9 @@ icon = "linkedin"
 url = "https://www.linkedin.com/in/yanpitangui/"
 
 
+[permalinks]
+  posts = '/posts/:year/:month/:title/'
+
 [[menu.main]]
 
 
