@@ -5,6 +5,8 @@ paginate = 5
 pygmentsstyle = "dracula"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+googleAnalytics = 'G-2YDP77JD9X'
+
 
 
 defaultContentLanguageInSubdir = true
