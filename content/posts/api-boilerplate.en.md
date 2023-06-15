@@ -3,7 +3,6 @@ title: "Starting a .NET api quickly with a boilerplate"
 date: 2023-05-10T21:56:13-03:00
 draft: false
 tags: [boilerplate, todo, dotnet, api]
-translationKey: "api-boilerplate"
 ---
 
 ## What is an API boilerplate?
