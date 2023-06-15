@@ -19,5 +19,8 @@ function toggleTheme() {
     }
 }
 
-var savedTheme = localStorage.getItem("theme-storage") || "light";
-setTheme(savedTheme);
+document.addEventListener('DOMContentLoaded', () => {
+    var savedTheme = localStorage.getItem("theme-storage") || "light";
+    setTheme(savedTheme);
+});
+
